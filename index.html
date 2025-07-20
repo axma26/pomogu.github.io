@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Помогу.Онлайн — Личный Кабинет</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px; }
+    .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; }
+    h1, h2 { color: #333; }
+    button, input, select, textarea { margin: 5px 0; padding: 10px; width: 100%; border-radius: 5px; border: 1px solid #ccc; }
+    .section { margin-bottom: 30px; }
+    .btn-primary { background: #0066ff; color: white; border: none; cursor: pointer; }
+    .btn-secondary { background: #f0f0f0; cursor: pointer; }
+    .card { background: #f9f9f9; padding: 10px; margin: 5px 0; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Личный Кабинет</h1>
+    
+    <div class="section">
+      <h2>Профиль пользователя</h2>
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Город">
+      <textarea placeholder="Чем могу помочь?" rows="2"></textarea>
+      <button class="btn-primary">Сохранить профиль</button>
+    </div>
+
+    <div class="section">
+      <h2>Создать заявку</h2>
+      <select>
+        <option>Нужна помощь</option>
+        <option>Хочу помочь</option>
+      </select>
+      <input type="text" placeholder="Заголовок заявки">
+      <textarea placeholder="Описание" rows="3"></textarea>
+      <input type="text" placeholder="Контакт для связи (телефон, Telegram)">
+      <button class="btn-primary">Опубликовать заявку</button>
+    </div>
+
+    <div class="section">
+      <h2>Мои заявки</h2>
+      <div class="card">Заявка 1 — Статус: Ожидает откликов</div>
+      <div class="card">Заявка 2 — Статус: Откликнулся Иван</div>
+    </div>
+
+    <div class="section">
+      <h2>Мои отклики</h2>
+      <div class="card">Вы откликнулись на заявку — Подвезти лекарства</div>
+    </div>
+
+    <div class="section">
+      <h2>Сообщения</h2>
+      <div class="card">Чат с Иваном — “Спасибо за помощь!”</div>
+    </div>
+
+    <div class="section">
+      <h2>Система “Спасибо”</h2>
+      <p>Получено “Спасибо” от других пользователей: <strong>1</strong></p>
+      <button class="btn-secondary">Сказать спасибо</button>
+    </div>
+
+    <div class="section">
+      <button class="btn-secondary">Выйти из кабинета</button>
+    </div>
+
+  </div>
+</body>
+</html>Добавил index.html
